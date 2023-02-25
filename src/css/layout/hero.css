@@ -5,9 +5,9 @@
 }
 
 .hero-main h1{
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     font-weight: 400;
-    font-size: 150px;
+    font-size: 80px;
     line-height: 1.00;
     letter-spacing: -0.02em;
     text-align: center;
@@ -17,26 +17,50 @@
 .hero-wrap{
     margin-left: auto;
     margin-right: auto;
-    max-width: 542px;
+    max-width: 335px;
+    /* background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%); */
+    /* background-image: linear-gradient(to bottom,blue,red); */
+
 }
 
 .hero-btn{
+    margin-bottom: 66px;
     display: flex;
     justify-content: center;
     gap: 14px;
+
 }
 
 .hero-btn-black{
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     background-color: transparent;
     color: var(--text-color-btn-light);
     width: fit-content;
-    height: 40px;
-    padding: 8px 24px;
+    height: 34px;
+    padding: 8px 18px;
     border: 0.8px solid var(--text-color-btn-light);
     border-radius: 32px;
     /* transition: background-color 250ms var(--cubic); */
+}
+
+.hero-description p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29em;
+
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-color-light);
+}
+
+.hero-description > p:not(:last-child){
+    margin-bottom: 32px;
+}
+
+.text-italic{
+    font-style: italic;
 }

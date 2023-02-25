@@ -1,0 +1,8 @@
+.hero-main{
+    background-color: var(--bcg-color-dark);
+}
+
+.hero-main h1{
+    text-align: center;
+    color: var(--text-color-light);
+}

@@ -152,8 +152,8 @@
     }
 
     .hero-main{
-    
     padding-top: 274px;
+    padding-bottom: 0;
     background-image: 
           url("../img/desktop/home/hero-desktop-home.jpg"); 
 
@@ -170,8 +170,26 @@
     }
   }
 
-  
+    .hero-title-box h1{
+        text-align: left;
+        font-size: 180px;
+        margin-bottom: 196px;
+    }
 
+    .hero-desktop-wrap{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
 
+    .hero-description p:first-child{
+        max-width: 338px;
+        margin-bottom: 0;
+    }
+
+    .hero-description p:last-child{
+        max-width: 314px;
+        
+    }
 
 }

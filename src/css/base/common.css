@@ -109,13 +109,13 @@ body{
 }
 
 /* Desktop style */
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1440px) {
 .section {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 .container{
-    max-width: 1376px;
+    max-width: 1440px;
 }
 }
 

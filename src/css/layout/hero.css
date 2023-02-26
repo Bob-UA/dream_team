@@ -1,7 +1,7 @@
 .hero-main{
     padding-top: 50px;
     padding-bottom: 38px;
-    background-color: var(--bcg-color-dark);
+    background-color: var(--primary-text-color);
 }
 
 .hero-main h1{
@@ -25,9 +25,9 @@
      url("../img/mobil/home/hero-mobil.jpg");;
 
     
-  /*background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover; 
 
 }
 
@@ -40,7 +40,6 @@
     display: flex;
     justify-content: center;
     gap: 14px;
-
 }
 
 .hero-btn-black{
@@ -75,6 +74,12 @@
 
 .text-italic{
     font-style: italic;
+}
+
+.hero-btn-black:is(:hover, :focus){
+    background-color: var(--active-bcg-btn-dark);
+   color:var(--primary-text-color);
+    box-shadow: -14px 24px 68px -16px rgba(255, 255, 255, 0.15);
 }
 
 /* ----------------------------------------Tablet--- */

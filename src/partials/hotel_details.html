@@ -1,20 +1,123 @@
 <section class="hotels-details">
-  <div class="hotels-details__text-s-button">
+  <div class="hotels-details__text-and-button">
     <div class="hotels-details__text">
-      <h2>Hotel</h2>
-      <p>
+      <h2 class="hotels-details__h-two">Hotel</h2>
+      <p class="hotels-details__paragraph">
         Book your stay with us now and experience the epitome of comfort and
         luxury at our hotel. We guarantee you'll be thrilled with your decision.
       </p>
     </div>
 
-    <div class="hotels-details__buttons-top">
-      <button>Book a room</button><button>View rooms</button>
+    <div class="hotels-details__top-buttons">
+      <button class="buttonn">Book a room</button
+      ><button class="buttonn">View rooms</button>
     </div>
   </div>
 
-  <div class="hotels-details__images">
-    <div class="hotels-details__left-image">
+  <!-- mobile -->
+
+  <div class="hotels-details__images-mobile-version">
+    <img
+      class="hotels-details__middle-image"
+      srcset="
+        ../img/mobil/home/hotel-mobil-1.jpg     1x,
+        ../img/mobil/home/hotel-mobil-1.@2x.jpg 2x
+      "
+      src="../img/mobil/home/hotel-mobil-1.jpg"
+      alt="bedroom image"
+      width="335"
+      height="417"
+    />
+    <div class="hotels-details__bottom-images">
+      <img
+        srcset="
+          ../img/mobil/home/hotel-mobil-2.jpg    1x,
+          ../img/mobil/home/hotel-mobil-2@2x.jpg 2x
+        "
+        src="../img/mobil/home/hotel-mobil-2.jpg"
+        alt="soap"
+        width="158"
+        height="128"
+      />
+      <img
+        srcset="
+          ../img/mobil/home/hotel-mobil-3.jpg    1x,
+          ../img/mobil/home/hotel-mobil-3@2x.jpg 2x
+        "
+        src="../img/mobil/home/hotel-mobil-3.jpg"
+        alt="bath"
+        width="158"
+        height="128"
+      />
+    </div>
+  </div>
+
+  <!-- tablet -->
+
+  <div class="hotels-details__images-tablet-version">
+    <div>
+      <img
+        class="hotels-details__left-or-right-top-image"
+        srcset="
+          ../img/tablet/home/hotel-home-1.jpg    1x,
+          ../img/tablet/home/hotel-home-1@2x.jpg 2x
+        "
+        src="../img/tablet/home/hotel-home-1.jpg"
+        alt="soap"
+        width="176"
+        height="143"
+      />
+      <img
+        srcset="
+          ../img/tablet/home/hotel-home-2.jpg    1x,
+          ../img/tablet/home/hotel-home-2@2x.jpg 2x
+        "
+        src="../img/tablet/home/hotel-home-2.jpg"
+        alt="bath"
+        width="176"
+        height="258"
+      />
+    </div>
+    <img
+      class="hotels-details__middle-image"
+      srcset="
+        ../img/tablet/home/hotel-home-3.jpg    1x,
+        ../img/tablet/home/hotel-home-3@2x.jpg 2x
+      "
+      src="../img/tablet/home/hotel-home-3.jpg"
+      alt="bedroom image"
+      width="320"
+      height="417"
+    />
+    <div>
+      <img
+        class="hotels-details__left-or-right-top-image"
+        srcset="
+          ../img/tablet/home/hotel-home-4.jpg    1x,
+          ../img/tablet/home/hotel-home-4@2x.jpg 2x
+        "
+        src="../img/tablet/home/hotel-home-4.jpg"
+        alt="shells"
+        width="176"
+        height="258"
+      />
+      <img
+        srcset="
+          ../img/tablet/home/hotel-home-5.jpg    1x,
+          ../img/tablet/home/hotel-home-5@2x.jpg 2x
+        "
+        src="../img/tablet/home/hotel-home-5.jpg"
+        alt="soap"
+        width="176"
+        height="143"
+      />
+    </div>
+  </div>
+
+  <!-- desktop -->
+
+  <div class="hotels-details__images-desktop-version">
+    <div>
       <img
         class="hotels-details__left-or-bottom-image"
         srcset="
@@ -23,19 +126,18 @@
         "
         src="../img/desktop/home/hotel-desktop-home-1.jpg"
         alt="soap"
-        width="158"
-        height="128"
+        width="320"
+        height="260"
       />
       <img
-        class="hotels-details__bath"
         srcset="
           ../img/desktop/home/hotel-desktop-home-2.jpg    1x,
           ../img/desktop/home/hotel-desktop-home-2@2x.jpg 2x
         "
         src="../img/desktop/home/hotel-desktop-home-2.jpg"
         alt="bath"
-        width="158"
-        height="128"
+        width="320"
+        height="260"
       />
     </div>
     <img
@@ -46,60 +148,36 @@
       "
       src="../img/desktop/home/hotel-desktop-home-3.jpg"
       alt="bedroom image"
-      width="335"
-      height="417"
+      width="420"
+      height="548"
     />
-    <div class="hotels-details__bottom-image">
+    <div>
       <img
         class="hotels-details__left-or-bottom-image"
-        srcset="
-          ../img/desktop/home/hotel-desktop-home-1.jpg    1x,
-          ../img/desktop/home/hotel-desktop-home-1@2x.jpg 2x
-        "
-        src="../img/desktop/home/hotel-desktop-home-1.jpg"
-        alt="soap"
-        width="158"
-        height="128"
-      />
-      <img
-        class="hotels-details__bath"
-        srcset="
-          ../img/desktop/home/hotel-desktop-home-2.jpg    1x,
-          ../img/desktop/home/hotel-desktop-home-2@2x.jpg 2x
-        "
-        src="../img/desktop/home/hotel-desktop-home-2.jpg"
-        alt="bath"
-        width="158"
-        height="128"
-      />
-    </div>
-    <div class="hotels-details__right-image">
-      <img
-        class="hotels-details__soap"
         srcset="
           ../img/desktop/home/hotel-desktop-home-4.jpg    1x,
           ../img/desktop/home/hotel-desktop-home-4@2x.jpg 2x
         "
         src="../img/desktop/home/hotel-desktop-home-4.jpg"
         alt="shells"
-        width="158"
-        height="128"
+        width="320"
+        height="260"
       />
       <img
-        class="hotels-details__bath"
         srcset="
           ../img/desktop/home/hotel-desktop-home-5.jpg    1x,
           ../img/desktop/home/hotel-desktop-home-5@2x.jpg 2x
         "
         src="../img/desktop/home/hotel-desktop-home-5.jpg"
         alt="soap"
-        width="158"
-        height="128"
+        width="320"
+        height="260"
       />
     </div>
   </div>
 
-  <div class="hotels-details__buttons-bottom">
-    <button>Book a room</button><button>View rooms</button>
+  <div class="hotels-details__bottom-buttons">
+    <button class="buttonn">Book a room</button
+    ><button class="buttonn">View rooms</button>
   </div>
 </section>

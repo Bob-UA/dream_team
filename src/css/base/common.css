@@ -1,6 +1,14 @@
-/* :root {
-
-} */
+:root {
+    /* color styles */
+    --primary-text-color: #121212;
+    --primary-background-color:#F7F7F7;
+    --secondary-background-color:#121212;
+    /* font styles */
+    --primary-font: 'DM Sans', sans-serif;
+    --font-weight-std:400;
+    --font-weight-medium:500;
+    --font-weight-large:700;
+}
 
 body{
     font-size: 14px;

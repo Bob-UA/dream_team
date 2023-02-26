@@ -42,7 +42,7 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #121212;
-
+    width: 221px;
     margin-bottom: 32px;
 }
 
@@ -62,7 +62,6 @@
 }
 
 .restourant-details-buttons-item-link {
-    display: block;
 }
 
 
@@ -90,7 +89,7 @@
 
 
 .restaurants-details-link {
-    
+    display: block;
     padding: 8px 18px;
     border: 0.8px solid #121212;
     border-radius: 32px;
@@ -212,7 +211,32 @@
 }
 
 .restourant-details-modal-form-input {
-    outline: 0;
-    outline-offset: 0;
-    border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.18em;
+  color: #D8D7D7;  
+  width: 100%;
+  
+  padding-left: 9px;
+  outline: 0;
+  outline-offset: 0;
+  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+}
+
+.restourant-details-modal-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+
+  color: #D8D7D7;
+  margin-bottom: 32px;
+  margin-top: 8px;
+  
 }

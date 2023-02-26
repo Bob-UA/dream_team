@@ -7,16 +7,32 @@
         </p>
         <ul class="restaurants-details-list">
         <li class="restaurants-details-item">
-            <img
-                srcset="../img/mobil/home/restaurant/home-restourant1@2x.jpg 2x"
-                src="../img/mobil/home/restaurant/home-mobil-restorant1.jpg"
-                alt="coctail"
-                width="157"
-            />
+            <picture>
+                <source 
+                    srcset="../img/desktop/home/restaurant/hom-res-1.jpg 1x, ../img/desktop/home/restaurant/hom-res-1@2x.jpg 2x"
+                    media="(min-width: 1440)"
+                    type="image/jpg"
+                />
+                <source 
+                    srcset="../img/tablet/home/restaurant/home-tablet-rest-1.jpg 1x, ../img/tablet/home/restaurant/home-tablet-rest-1@2x.jpg 2x"
+                    media="(min-width: 768)"
+                    type="image/jpg"
+                />
+                <source 
+                    srcset="../img/mobil/home/restaurant/home-mobil-restorant1.jpg 1x, ../img/mobil/home/restaurant/home-mobil-restorant1@2x.jpg 2x"
+                    media="(max-width: 767)"
+                    type="image/jpg"
+                />
+                <img
+                    src="../img/mobil/home/restaurant/home-mobil-restorant1.jpg"
+                    alt="coctail"
+                    width="157"
+                />
+            </picture>
         </li>
         <li>
             <img
-            srcset="../img/mobil/home/restaurant/home-restourant2@2x.jpg 2x"
+            srcset="../img/mobil/home/restaurant/home-mobil-restorant2@2x.jpg 2x"
             src="../img/mobil/home/restaurant/home-mobil-restorant2.jpg"
             alt="barman"
             width="158"
@@ -51,6 +67,18 @@
                     pattern="[a-zA-Z]+"
                     minlength="2"
                 />
+            </label>
+                <p class="restourant-details-modal-text">Who should book a table for?</p>
+            
+            <label class="restorant-details-modal-form-field" for="number of people">Number of people
+                <!-- <span class="restourant-details-modal-form-input-desc">Number of people</span> -->
+                <select id="number of people" name="number of people">
+                    <option value="number of people"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </label>
         </form>
         </div>
     </div>

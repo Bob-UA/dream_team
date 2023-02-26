@@ -76,6 +76,16 @@ body{
     background-color: var(--primary-background-color);
 }
 
+.title {
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 1;
+    }
+.text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    }
 
 /* mobile style */
 @media screen and (max-width: 767px) {

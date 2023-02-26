@@ -152,13 +152,18 @@
     }
 
     .hero-main{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
     padding-top: 274px;
-    padding-bottom: 0;
+    padding-bottom: 78px;
     background-image: 
           url("../img/desktop/home/hero-desktop-home.jpg"); 
 
-     background-size: 542px 770px;
+     /* background-size: 542px 770px; */
+     background-size: contain;
      background-position: right top;
+     
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -190,6 +195,17 @@
     .hero-description p:last-child{
         max-width: 314px;
         
+    }
+
+    .hero-btn{
+        margin-right: 30px;
+        margin-bottom: 0px;
+    }
+
+    .hero-btn-black{
+    font-size: 18px;
+    height: 42px;
+    padding: 9px 24px;
     }
 
 }

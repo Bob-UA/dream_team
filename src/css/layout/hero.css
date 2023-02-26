@@ -150,4 +150,28 @@
     .container{
         max-width: 1376px;
     }
+
+    .hero-main{
+    
+    padding-top: 274px;
+    background-image: 
+          url("../img/desktop/home/hero-desktop-home.jpg"); 
+
+     background-size: 542px 770px;
+     background-position: right top;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-main {
+      background-image: 
+        url("/img/desktop/home/hero-desktop-home@2x.jpg");
+    }
+  }
+
+  
+
+
+
 }

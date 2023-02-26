@@ -96,11 +96,15 @@ body{
 
 /* Desktop style */
 @media screen and (min-width:1200px) {
-.section {
+
+    .section {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .container{
     max-width: 1376px;
 }
+
+
 }

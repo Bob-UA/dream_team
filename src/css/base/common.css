@@ -50,19 +50,27 @@
     font-weight: 700;
     src: url('../fonts/dm-sans-v11-latin-700italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
          url('../fonts/dm-sans-v11-latin-700italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  
-
-:root {
-
 }
 
+
+:root {
+    /* color styles */
+    --primary-text-color: #121212;
+    --primary-background-color:#F7F7F7;
+    --secondary-background-color:#121212;
+    /* font styles */
+    --primary-font: 'DM Sans', sans-serif;
+    --font-weight-std:400;
+    --font-weight-medium:500;
+    --font-weight-large:700;
+}
 body{
+    font-family: var(--primary-font);
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    color: 121212;
-    background-color: F6F6F6;;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
 }
 
 
@@ -75,6 +83,10 @@ body{
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
+    }
+    .section {
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
 }
 
@@ -91,7 +103,7 @@ body{
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
-    }   
+    }
 }
 
 /* Desktop style */

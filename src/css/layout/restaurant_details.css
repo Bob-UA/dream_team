@@ -52,6 +52,24 @@
     margin-bottom: 82px;
 }
 
+.restourant-details-buttons-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+}
+
+.restourant-details-buttons-item-link {
+    display: block;
+}
+
+
+.restourant-details-buttons-item-btn {
+    
+}
+
 .restaurants-details-modal-btn {
     padding: 8px 18px;
     border: 0.8px solid #121212;
@@ -61,19 +79,18 @@
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.29;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #121212;
-    min-width: 128px;
-    /* height: 34px; */
+    /* width: 128px; */
+    
 }
 
 
 .restaurants-details-link {
-    min-width: 139px;
-    /* margin-left: 12px; */
+    
     padding: 8px 18px;
     border: 0.8px solid #121212;
     border-radius: 32px;
@@ -81,21 +98,17 @@
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.29;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #121212;
 }  
 
-.restourant-details-buttons-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 12px;
-}
+
+
+
+
 /* modal -----------------------------------> */
 
 .backdrop {

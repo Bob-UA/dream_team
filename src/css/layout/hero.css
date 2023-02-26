@@ -1,8 +1,29 @@
 .hero-main{
-    padding-top: 50px;
+    padding-top: 429px;
     padding-bottom: 38px;
-    background-color: var(--primary-text-color);
+    background-color: var(--dark-bcg-color);
+    /* background-image:
+     linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
+     #121212 98.51%), 
+     url("../img/mobil/home/hero-mobil.jpg");  */
+
+     background-image: 
+          url("../img/mobil/home/hero-mobil.jpg"); 
+
+     background-size: 335px 439px;
+     background-position: center 40px;
+     background-repeat: no-repeat;
+
 }
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-main {
+    background-image: 
+      url("../img/mobil/home/hero-mobil@2x.jpg"); 
+  } 
+  }
 
 .hero-main h1{
     margin-bottom: 24px;
@@ -12,27 +33,6 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: var(--text-color-light);
-}
-
-.hero-image{
-    margin-left: auto;
-    margin-right: auto;
-    height: 439px;
-    max-width: 335px;
-    background-image:
-     linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
-     #121212 98.51%), 
-     url("../img/mobil/home/hero-mobil.jpg");;
-
-    
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; 
-
-}
-
-.hero-title-box{
-    margin-top: calc(389px - 439px);
 }
 
 .hero-btn{

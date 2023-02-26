@@ -48,11 +48,11 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     background-color: transparent;
-    color: var(--text-color-btn-light);
+    color: var(--text-color-light);
     width: fit-content;
     height: 34px;
     padding: 8px 18px;
-    border: 0.8px solid var(--text-color-btn-light);
+    border: 0.8px solid var(--text-color-light);
     border-radius: 32px;
     /* transition: background-color 250ms var(--cubic); */
 }
@@ -97,4 +97,49 @@
         padding-left: 32px;
         padding-right: 32px;
     }   
+
+    .hero-main{
+    padding-top: 528px;
+    /* padding-bottom: 38px; */
+    /* background-color: var(--dark-bcg-color); */
+    /* background-image:
+     linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
+     #121212 98.51%), 
+     url("../img/mobil/home/hero-mobil.jpg");  */
+
+     background-image: 
+          url("../img/tablet/home/hero-home.jpg"); 
+
+     background-size: 542px 710px;
+     background-position: center 50px;
+     /* background-repeat: no-repeat; */
+}
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-main {
+      background-image: 
+        url("../img/tablet/home/hero-home@2x.jpg");
+    }
+  }
+
+.hero-main h1{
+    margin-bottom: 32px;
+    font-size: 150px;
+    line-height: 1.00;
+}
+
+.hero-btn{
+    margin-bottom: 86px;
+}
+.hero-btn-black{
+    height: 40px;
+    padding: 8px 24px;
+}
+
+.hero-description{
+    display: flex;
+    gap: 32px;
+}
 }

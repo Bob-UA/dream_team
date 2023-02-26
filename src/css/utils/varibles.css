@@ -9,10 +9,9 @@
     --font-weight-medium:500;
     --font-weight-large:700;
     
-        
+     /* hero colors */   
     --dark-bcg-color: #121212;
-    --text-color-light: #f6f6f6;
-    --text-color-btn-light: #f7f7f7; 
+    --text-color-light: #f7f7f7;
     --active-bcg-btn-dark: #ffffff;
 
 

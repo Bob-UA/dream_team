@@ -51,7 +51,7 @@
   min-height: 61px;
   display: flex;
   gap: 12px;
-  background: #121212;
+  background: var(--secondary-background-color);
   box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   padding-top: 10px;
@@ -82,7 +82,7 @@
 .critic-name {
   font-size: 14px;
   text-transform: capitalize;
-  color: #f7f7f7;
+  color: var(--primary-background-color);
 }
 .critic-rating {
   max-width: 131px;
@@ -94,7 +94,7 @@
 }
 
 .critic-rating > span {
-  color: #f7f7f7;
+  color: var(--primary-background-color);
 }
 
 .thumb-second {
@@ -114,7 +114,7 @@
   color: #484848;
 }
 .about-text {
-  color: #121212;
+  color: var(--primary-text-color);
 }
 
 .about-text.first {

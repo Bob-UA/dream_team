@@ -15,6 +15,9 @@
   background-color: var(--dark-bcg-color);
 }
 
+.hero-title.desktop{
+    display: none;
+}
 .hero-title {
   margin-bottom: 24px;
   font-weight: 400;
@@ -35,10 +38,16 @@
       rgba(0, 0, 0, 0) 70.73%,
       #121212 98.51%
     ),
-    url('./img/mobil/home/hero-mobil.jpg');
+    url('../img/mobil/home/hero-mobil.jpg');
 
   background-size: cover;
   background-repeat: no-repeat;
+  border: red solid 3px;
+}
+
+.hero-wrap{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -50,7 +59,7 @@
         rgba(0, 0, 0, 0) 70.73%,
         #121212 98.51%
       ),
-      url('./img/mobil/home/hero-mobil@2x.jpg');
+      url('../img/mobil/home/hero-mobil@2x.jpg');
   }
 }
 
@@ -116,7 +125,7 @@
         rgba(0, 0, 0, 0) 70.73%,
         #121212 98.51%
       ),
-      url('./img/tablet/home/hero-home.jpg');
+      url('../img/tablet/home/hero-home.jpg');
     background-position: center;
   }
 
@@ -129,7 +138,7 @@
           rgba(0, 0, 0, 0) 70.73%,
           #121212 98.51%
         ),
-        url('./img/tablet/home/hero-home@2x.jpg');
+        url('../img/tablet/home/hero-home@2x.jpg');
     }
   }
 
@@ -183,7 +192,7 @@
         rgba(0, 0, 0, 0) 70.73%,
         rgba(18, 18, 18, 0.8) 100%
       ),
-      url('./img/desktop/home/hero-desktop-home.jpg');
+      url('../img/desktop/home/hero-desktop-home.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -191,9 +200,12 @@
 
   .hero-image {
     margin: 0;
+    margin-left: auto;
     padding: 274px 0 0 0;
+    width: calc(542px - 64px);
     max-width: 100%;
     background-image: none;
+    border: aqua solid 3px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -205,20 +217,23 @@
           rgba(0, 0, 0, 0) 70.73%,
           rgba(18, 18, 18, 0.8) 100%
         ),
-        url('./img/desktop/home/hero-desktop-home@2x.jpg');
+        url('../img/desktop/home/hero-desktop-home@2x.jpg');
     }
   }
 
+  .hero-title.desktop {
+    display: block;
+  }
   .hero-title {
     text-align: left;
     font-size: 180px;
     margin-bottom: 196px;
   }
 
-  .hero-desktop-wrap {
+  /* .hero-desktop-wrap {
     display: flex;
     justify-content: space-between;
-  }
+  } */
 
   .hero-description p:first-child {
     max-width: 338px;
@@ -240,6 +255,10 @@
     padding: 9px 24px;
   }
   .hero-description.not-desktop {
+    display: none;
+  }
+
+  .hero-title.not-desktop{
     display: none;
   }
 }

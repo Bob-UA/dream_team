@@ -3,6 +3,9 @@
     .restourant-details-modal {
         max-width: 335px;
     }
+    .restaurants-details-title {
+        margin-bottom: 24px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -25,10 +28,18 @@
   
 }
 
-@media screen and (min-width: 1440px) {
-
+@media screen and (max-width: 1439px) {
+  .none {
+    display: none;
+  }
 }
 
+@media screen and (min-width: 1440px) {
+      .restaurants-details-title {
+        
+        
+      }
+}
 
 
 .restourants-text-box {
@@ -36,27 +47,11 @@
 }
 
 .restaurants-details-title {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #121212;
-
-    margin-bottom: 24px;
+  line-height: 1;
 }
 
 .restaurants-details-text {
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #121212;
     width: 221px;
 }
 
@@ -262,5 +257,4 @@
   position: absolute;
   top: 190px;
   right: 24px;
-
 }

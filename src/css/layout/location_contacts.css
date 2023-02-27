@@ -16,11 +16,23 @@
     
 }
 
- .location-map {
-    margin-bottom: 32px; 
-    max-width: 335px; 
-    max-height: 384px; 
+.map-container{
+    margin-bottom: 32px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 114.6%; /* 0.87:1 Aspect Ratio (divide 335 by 384 = 0.5625) */
 }
+
+ .location-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}1
 
 
 .location-addres {

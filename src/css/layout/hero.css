@@ -18,7 +18,7 @@
 }
 
 .hero-title{
-    padding-top: 389px;  
+    margin-bottom: 24px;
     font-weight: 400;
     font-size: 80px;
     line-height: 1.00;
@@ -30,7 +30,8 @@
 .hero-image{
      max-width: 335px;
      height: 439px; 
-     margin-bottom: 54px; 
+     margin-bottom: 154px; 
+     padding-top: 389px;
      background-image:
      linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
      #121212 98.51%), 
@@ -50,11 +51,10 @@
   }
 
 .hero-btn{
-    /* margin-bottom: 66px; */
     display: flex;
     justify-content: center;
     gap: 14px;
-    margin-bottom: 66px;
+    
 }
 
 .hero-btn-black{
@@ -93,12 +93,12 @@
 
 .hero-btn-black:is(:hover, :focus){
     background-color: var(--active-bcg-btn-dark);
-   color:var(--primary-text-color);
+    color:var(--primary-text-color);
     box-shadow: -14px 24px 68px -16px rgba(255, 255, 255, 0.15);
 }
 
 /* ----------------------------------------Tablet--- */
-/*
+
 @media screen and (min-width:768px)
 {
     
@@ -108,6 +108,10 @@
 
      margin-left: auto;
      margin-right: auto;
+     margin-bottom: 76px;
+
+     padding-top: 478px;
+     
      
      background-image:
      linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
@@ -125,26 +129,19 @@
       background-image: 
         url("../img/tablet/home/hero-home@2x.jpg");
     }
-  } 
+  }
 
   .hero-main{
     padding-top: 50px;
   }
 
-.hero-main h1{
+  .hero-title {
     
     margin-bottom: 32px;
     font-size: 150px;
     line-height: 1.00;
     }
 
-.hero-title-box{
-    padding-top: 478px;
-} 
-
-.hero-btn{
-    margin-bottom: 86px;
-    }
 .hero-btn-black{
     height: 40px;
     padding: 8px 24px;
@@ -154,7 +151,13 @@
     display: flex;
     gap: 32px;
     }
+
+ .hero-description > p:not(:last-child){
+    margin-bottom: 0;
 }
+}
+
+
 
 /* ----------------------------------------Desktop--- */
 /*

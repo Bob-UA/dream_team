@@ -74,12 +74,27 @@ body{
     letter-spacing: -0.02em;
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
+    text-transform: uppercase;
 }
 
+.title {
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 1;
+    }
+
+.text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    }
 
 /* mobile style */
 @media screen and (max-width: 767px) {
-    
+    .section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
     .container{
     margin-left: auto;
     margin-right: auto;
@@ -106,13 +121,12 @@ body{
 }
 
 /* Desktop style */
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1440px) {
 .section {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 .container{
-    max-width: 1376px;
+    max-width: 1440px;
 }
 }
-

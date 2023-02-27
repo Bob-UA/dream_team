@@ -149,24 +149,21 @@
         </button>
         <h2 class="restourant-details-modal-title">book a table<h2>
         <form class="restourant-details-modal-form">
-            <label class="restourant-details-modal-form-field">
+            <label class="restourant-modal-label">
                 <span class="restourant-details-modal-form-input-desc">Your name</span>
                 <input
-                    type=""
+                    type="text"
                     name="user-name"
                     class="restourant-details-modal-form-input"
                     required
                     pattern="[a-zA-Z]+"
                     minlength="2"
                 />
-            </label>
                 <p class="restourant-details-modal-text">Who should book a table for?</p>
-                
+            </label>
                 <label class="restourant-modal-label">
-                    <span class="restourant-details-modal-form-input-desc">Number of people</span>
-                    <input class="restourant-modal-input" type="text" name="numbers-of-nights" min="1" max="7">
-                    <select class="restourant-modal-select" name="" id="" size="">
-                        <option value="1"></option>
+                    <select class="restourant-modal-select">
+                        <option value disabled selected>NUMBER OF PEOPLE</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -176,8 +173,29 @@
                         <option value="7">7</option>
                     </select>
                 </label>
-            </label>
+                <label class="restourant-modal-label">
+                    <select class="restourant-modal-select">
+                        <option  value="Today">Today</option>
+                        <option value="Tomorrow">Tomorrow</option>
+                        <option value="after two days">after two days</option>
+                        <option value="after three days">after three days</option>
+                    </select>
+                    <p class="restourant-details-modal-text">WHAT DATE A BOOK?</p>
+                </label>
+                <label class="restourant-modal-label">
+                    <span class="restourant-details-modal-form-input-desc">+38()</span>
+                    <input
+                        type=""
+                        name="user-name"
+                        class="restourant-details-modal-form-input"
+                        required
+                        pattern="[a-zA-Z]+"
+                        minlength="2"
+                    />
+                    <p class="restourant-details-modal-text">Phone number</p>
+                </label>
         </form>
+        <button type="submit" class="modal-btn">MAKE A RESERVATION</button>
         </div>
     </div>
     </section>

@@ -13,6 +13,7 @@
         max-width: 628px;
     }
     .restourants-text-box {
+      align-items: center;
         display: flex;
         margin-bottom: 80px;
     }
@@ -193,15 +194,13 @@
     display: flex;
     flex-direction: column;
   }
-  
-  .restourant-details-modal-form-field {
+
+  .restourant-modal-label:not(:last-child) {
     margin-bottom: 32px;
-  }
-
-  .restourant-details-modal-form-input-desc {
     display: block;
-    /* margin-bottom: 18px; */
-
+  }
+  
+  .restourant-details-modal-form-input-desc {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -212,11 +211,7 @@
     color: #F7F7F7;
 }
 
-.restourant-details-modal-form-input {
-    background-color: transparent;
-    border: none;
 
-}
 
 .restourant-details-modal-form-input {
   font-family: 'DM Sans';
@@ -229,6 +224,8 @@
   width: 100%;
   
   padding-left: 9px;
+  background-color: transparent;
+  border: none;
   outline: 0;
   outline-offset: 0;
   border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
@@ -244,17 +241,38 @@
   text-transform: uppercase;
 
   color: #D8D7D7;
-  margin-bottom: 32px;
   margin-top: 8px;
   
 }
 
-.restourant-modal-input {
-    position: relative;
-}
+
 
 .restourant-modal-select {
-  position: absolute;
-  top: 190px;
-  right: 24px;
+  width: 100%;
+  color: var(--primary-background-color);
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  outline-offset: 0;
+  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+}
+
+option {
+  color:#121212
+}
+
+.modal-btn {
+  min-width: 235px;
+  padding: 14px 48px;
+  background-color:var(--secondary-background-color); 
+  color: var(--primary-background-color);
+  border: 0.8px solid #F7F7F7;
+  border-radius: 32px;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 1.29;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
 }

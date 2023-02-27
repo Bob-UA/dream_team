@@ -26,6 +26,7 @@
   gap: 20px;
 }
 .text-about-kitchen {
+      font-style: italic;
   font-weight: var(--font-weight-large);
   text-transform: uppercase;
 }

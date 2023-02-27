@@ -34,15 +34,18 @@
     border-radius: 32px;
     background-color: var(--primary-background-color);
     
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 1.29;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: var(--primary-text-color);
-    
+    color: var(--primary-text-color);   
+
+    transition: background-color 250ms var(--cubic), 
+    color 250ms var(--cubic);
+}
+
+.restaurants-details-modal-btn:hover,
+.restaurants-details-modal-btn:focus {
+  color: var(--primary-background-color);
+  background-color: var(--secondary-background-color);
 }
 
 
@@ -60,8 +63,16 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #121212;
+
+    transition: background-color 250ms var(--cubic), 
+    color 250ms var(--cubic);
 }  
 
+.restaurants-details-link:hover,
+.restaurants-details-link:focus {
+  color: var(--primary-background-color);
+  background-color: var(--secondary-background-color);
+}
 
 
 
@@ -121,12 +132,7 @@
     fill 250ms var(--cubic);
   }
 
-  .modal-close-btn:hover,
-  .modal-close-btn:focus {
-    background-color: var(--hover);
-    fill: var(--white);
 
-  }
   /* Modal-form */
 
   .restourant-details-modal-title {
@@ -227,6 +233,16 @@ option {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+
+  transition: background-color 250ms var(--cubic), 
+    color 250ms var(--cubic);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: var(--primary-background-color);
+    color: var(--secondary-background-color);
+
 }
 
 
@@ -262,8 +278,10 @@ option {
   }
   .restourants-text-box {
     margin-bottom: 80px;
-}
-  
+  }
+  .restourant-details-buttons-list {
+    gap: 14px;
+  }
 
 }
 
@@ -274,17 +292,16 @@ option {
 }
 
 @media screen and (min-width: 1440px) {
+
     .restourant-details-buttons-list {
       position: absolute;
-      top: 224px;
-      right: 35px;
+      top: 0;
+      right: 32px;
     }
-    .restaurants-details section {
+    .container-relative {
       position: relative;
     }
-    .restaurants-details-modal-btn {
-      
-    }
+    
     .restourants-text-box {
       margin-bottom: 125px;
   }

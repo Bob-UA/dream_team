@@ -62,6 +62,7 @@
         --font-weight-std:400;
         --font-weight-medium:500;
         --font-weight-large:700;
+        --cubic: cubic-bezier(0.4, 0, 0.2, 1);
     }
     body{
         font-family: var(--primary-font);

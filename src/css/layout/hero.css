@@ -32,16 +32,8 @@
     
 }
 
-
-     .hero-main>.container{
-     /* text-align: center; */
-        position: relative;
-}
- 
 .hero-title-box{
-    max-width: 335px;
-    position: absolute;
-    top: 389px;
+    padding-top: 389px;
 } 
 
 @media (min-device-pixel-ratio: 2),
@@ -128,7 +120,7 @@
         padding-right: 32px;
     }    
 
-    .hero-main{
+    /* .hero-main{
     padding-top: 528px;
     background-image: 
           url("../img/tablet/home/hero-home.jpg"); 
@@ -145,7 +137,7 @@
       background-image: 
         url("../img/tablet/home/hero-home@2x.jpg");
     }
-  }
+  } */
 
 .hero-main h1{
     margin-bottom: 32px;

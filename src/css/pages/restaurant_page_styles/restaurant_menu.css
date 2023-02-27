@@ -32,16 +32,15 @@ margin-top: 36px;
 }
 .current{
     color:#F7F7F7;
-    display: block;
     position: relative;
 }
-.rest-menu-list::after{
+.current::after{
     content:'';  
     left: 0;
     bottom: 0;
     position: absolute;
     width: 100%;
-    height: 3px;
+    height: 5px;
 }
 .rest-menu-text {
     display: flex;

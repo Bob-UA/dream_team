@@ -79,6 +79,10 @@ body{
 
 /* mobile style */
 @media screen and (max-width: 767px) {
+    .section {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
     
     .container{
     margin-left: auto;

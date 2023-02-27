@@ -74,6 +74,7 @@ body{
     letter-spacing: -0.02em;
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
+    text-transform: uppercase;
 }
 
 .title {
@@ -81,6 +82,7 @@ body{
     font-size: 68px;
     line-height: 1;
     }
+
 .text {
     font-weight: 500;
     font-size: 14px;

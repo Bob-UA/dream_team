@@ -13,6 +13,10 @@
     }
 }
 
+.hotel-hero-description.desktop{
+    display: none;
+}
+
 .hotel-hero{
     padding-top: 40px;
     padding-bottom: 64px;
@@ -111,7 +115,7 @@
     stroke: var(--primary-text-color); 
 }
 
-.hotel-hero-description p {
+.hotel-hero-description {
     max-width: 338px;
     letter-spacing: 0.05em;
 }
@@ -213,7 +217,15 @@
 .hotel-hero-btn {
    padding: 9px 24px;
   }
+.hotel-hero-slider-wrap{
+    margin-left: 737px;
+}
+.hotel-hero-description.desktop{
+    display: block;
+}
 
-
+.hotel-hero-description.not-desktop{
+    display: none;
+}
 
 }

@@ -203,9 +203,30 @@
     max-width: 1440px;
 }
 
+.hotel-hero{
+    padding-top: 30px;
+}
+
+.hotel-hero-image > img{
+    width: 436px;
+    height: 580px;
+    
+} 
+.hotel-hero-main-wrap{
+    display: flex;
+    gap: 367px;
+}
+
+.hotel-hero-btn{
+    flex-wrap: nowrap;
+}
 .hotel-hero-title{
     margin-bottom: 32px;
     font-size: 90px;
+}
+
+.hotel-hero-title-wrap{
+    width: 350px;
 }
 
 .hotel-hero-image > img{
@@ -214,6 +235,9 @@
     
 } 
 
+.hotel-hero-title{
+    margin-top: 282px;
+}
 .hotel-hero-btn {
    padding: 9px 24px;
   }

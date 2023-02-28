@@ -55,14 +55,29 @@
 }
 
 .hotel-hero-slider-wrap{
-    height: 36px;
-    text-align: right;
+    display: flex;
     margin-right: 20px;
     margin-bottom: 40px;
+    gap: 32px;
+    justify-content: right;
 }
 
-.hotel-hero-slider-left{
- margin-right: 32px;
+
+ .hotel-hero-slider{
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+} 
+.slider-left{
+    fill: none;
+    stroke: var(--primary-text-color); 
+    stroke-opacity: 30%;
+}
+
+.slider-right{
+    fill: none;
+    stroke: var(--primary-text-color); 
 }
 
 .hotel-hero-description p {

@@ -195,7 +195,7 @@
   @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .container-hero {
+    .hero-image {
       background-image: linear-gradient(
           180deg,
           rgba(0, 0, 0, 0) 70.73%,

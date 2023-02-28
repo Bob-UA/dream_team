@@ -74,6 +74,7 @@ body{
     letter-spacing: -0.02em;
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
+    text-transform: uppercase;
 }
 
 .title {
@@ -81,6 +82,18 @@ body{
     font-size: 68px;
     line-height: 1;
     }
+
+.text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    }
+.title {
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 1;
+    }
+
 .text {
     font-weight: 500;
     font-size: 14px;
@@ -89,6 +102,10 @@ body{
 
 /* mobile style */
 @media screen and (max-width: 767px) {
+    .section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
     .section {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -128,4 +145,3 @@ body{
     max-width: 1440px;
 }
 }
-

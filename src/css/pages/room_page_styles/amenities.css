@@ -27,8 +27,6 @@
   margin-bottom: 64px;
 }
 
-.amenities-item-wrap {
-}
 .amenities-list-title {
   font-weight: 700;
   font-size: 28px;
@@ -190,7 +188,7 @@
   }
 
   .amenities-img.second {
-    top: 29.9%;
+    top: 32.7%;
   }
 
   .amenities-btn {
@@ -200,6 +198,6 @@
   }
 
   .btn-wrap {
-    bottom: 135px;
+    top: 72.17%;
   }
 }

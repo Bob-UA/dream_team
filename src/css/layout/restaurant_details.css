@@ -1,4 +1,4 @@
-
+  
 .restourants-text-box {
     margin-bottom: 32px;
 }
@@ -254,6 +254,7 @@ option {
   }
   .restaurants-details-title {
       margin-bottom: 24px;
+      font-size: 40px;
   }
   
 }

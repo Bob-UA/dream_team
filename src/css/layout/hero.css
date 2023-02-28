@@ -31,7 +31,7 @@
   background-repeat: no-repeat;
 }
 
-@media (min-device-pixel-ratio: 2),
+@media screen and (max-width:767px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-image {
@@ -87,7 +87,7 @@
 
 /* ----------------------------------------Tablet--- */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1439px) {
   .hero-image {
     max-width: 542px;
     height: 710px;
@@ -104,7 +104,7 @@
     background-position: center;
   }
 
-  @media (min-device-pixel-ratio: 2),
+  @media screen and (min-width: 768px) and (max-width:1439px) and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-image {
@@ -191,8 +191,8 @@
     max-width: 100%;
     background-image: none;
   }
-
-  @media (min-device-pixel-ratio: 2),
+}
+  @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-main {
@@ -238,4 +238,4 @@
   .hero-description.not-desktop {
     display: none;
   }
-}
+

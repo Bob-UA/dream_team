@@ -15,7 +15,10 @@
 
 .hotel-hero{
     padding-top: 40px;
+    padding-bottom: 64px;
     background-color: var(--primary-background-color);
+
+    outline: 3px solid red;
 }
 
 .hotel-hero-title{
@@ -24,6 +27,45 @@
     font-size: 40px;
     line-height: 40px;
     
+}
+
+.hotel-hero-btn-wrap{
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+    gap: 14px;
+
+}
+
+.hotel-hero-btn {
+  background-color: transparent;
+  /* width: fit-content; */
+  height: 34px;
+  padding: 8px 18px;
+  border: 0.8px solid var(--primary-text-color);
+  border-radius: 32px;
+}
+
+.hotel-hero-image{
+    margin-bottom: 24px;
+    width: 100%;
+    height: 429px;
+    background-color: rgb(135, 151, 153);
+}
+
+.hotel-hero-slider-wrap{
+    height: 36px;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.hotel-hero-description p {
+    letter-spacing: 0.05em;
+}
+.text-italic {
+  font-style: italic;
 }
 
 

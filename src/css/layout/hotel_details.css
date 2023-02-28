@@ -13,22 +13,11 @@
 
 .hotels-details__h-two {
   margin-bottom: 32px;
-  font-weight: 500;
   font-size: 40px;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  color: var(--primary-background-color);
-  text-transform: uppercase;
 }
 
 .hotels-details__paragraph {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  color: var(--primary-background-color);
   max-width: 335px;
-  text-transform: uppercase;
 }
 
 .hotels-details__images-mobile-version {
@@ -75,8 +64,6 @@
 
   .hotels-details__h-two {
     margin-bottom: 0;
-    font-size: 68px;
-    line-height: 1;
   }
 
   .hotels-details__paragraph {

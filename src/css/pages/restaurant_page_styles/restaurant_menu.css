@@ -169,17 +169,25 @@ line-height: 1.33;
     .rest-menu-container{
         max-width: 1104px;
 }
-/* .div-wrap{
+.rest-menu-title {
+    padding-bottom: 100px;
+}
+.div-wrap{
     display: flex;
-    flex-wrap: wrap;
-    width: calc((100% - 74px) / 2);
-} */
+    gap: 73px;
+}
+
+
+.menu-hot-meals{
+    margin-bottom: 0px;
+}
 .menu-hot-meals{
     min-width: 510px;
 }
     .menu-salads{
         display: block;
         min-width: 510px;
+        margin-top: 50px;
     }
     .menu-side{
         display: block;
@@ -188,5 +196,18 @@ line-height: 1.33;
     .menu-dessert{
         display: block;
         min-width: 510px;
+        margin-top: 86px;
     }
+    .rest-menu-subtitle{
+        margin-top: 22px;
+    }
+    .dissert-subtitle{
+        margin-bottom: 23px;
+    }
+    /* .rest-menu-subtitle {
+    margin-top: 100px;
+    } */
+    .button{
+        margin-top: 50px;
+        }
     }

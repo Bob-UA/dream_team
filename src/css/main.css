@@ -13,7 +13,6 @@
 
 @import url('./base/reset.css');
 
-
 /* components */
 @import url('./components/container.css');
 
@@ -26,7 +25,6 @@
 @import url('./layout/hotel_details.css');
 @import url('./layout/location_contacts.css');
 
-
 /* pages */
 /* restaurant page */
 @import url('./pages/restaurant_page_styles/restaurant_hero.css');
@@ -38,3 +36,7 @@
 @import url('./pages/hotel_page_styles/double_luxury_room.css');
 @import url('./pages/hotel_page_styles/triple_room.css');
 @import url('./pages/hotel_page_styles/four_seater_room.css');
+
+/* room page */
+
+@import url('./pages/room_page_styles/room_hero.css');

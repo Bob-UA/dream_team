@@ -155,33 +155,27 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 }
   
 
 /* ----------------------------------------Desktop--- */
 
-@media screen and (min-width: 1440px) {
+ @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2),
+    screen and (min-width: 1440px) and (min-resolution: 192dpi),
+    screen and (min-width: 1440px) and (min-resolution: 2dppx) {
   
   .hero-main {
-    padding-top: 274px;
-    background-image: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 70.73%,
-        rgba(18, 18, 18, 0.8) 100%
-      ),
-      url('../../img/desktop/home/hero-desktop-home.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
   }
-  
-  /* .container-hero {
+
+ .container-hero {
     margin-left: auto;
     margin-right: auto;
     max-width: 1440px;
     height: 770px;
-    padding-right: 0;
-    padding: 0;
+    padding-top: 274px;
+    padding-left: 32px;
+    padding-right: 94px;
     background-image: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0) 70.73%,
@@ -191,10 +185,11 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-  } */
+  } 
 
   .hero-description.desktop {
     display: flex;
+    gap: 32px;
   }
     
   .hero-image {
@@ -204,7 +199,7 @@
     background-image: none;
   }
 
-  @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2),
+  /* @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2),
     screen and (min-width: 1440px) and (min-resolution: 192dpi),
     screen and (min-width: 1440px) and (min-resolution: 2dppx) {
     .container-hero {
@@ -215,7 +210,7 @@
         ),
         url('../../img/desktop/home/hero-desktop-home@2x.jpg');
     }
-  }
+  } */
 
   .hero-title {
     text-align: left;
@@ -228,10 +223,10 @@
     justify-content: space-between;
   }
 
-  .hero-description{
+  /* .hero-description{
     display: flex;
     gap: 32px;
-  }
+  } */
 
   .hero-description p:first-child {
     max-width: 338px;
@@ -243,8 +238,7 @@
   }
 
   .hero-btn {
-    margin-right: 94px;
-    margin-bottom: 0px;
+    margin: 0;
   }
 
   .hero-btn-black {
@@ -255,4 +249,5 @@
   .hero-description.not-desktop {
     display: none;
   }
+
 }

@@ -175,7 +175,7 @@
   .about-feedback-first {
     top: 176px;
     left: 370px;
-    z-index: 1000;
+    z-index: 1;
   }
 
   .thumb-second {

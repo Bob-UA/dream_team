@@ -94,7 +94,7 @@ color: #F7F7F7;
 
 }
 .menu-hot-meals{
-    margin-bottom: 96px;
+    margin-bottom: 32px;
 }
 .menu-salads{
     display: none;
@@ -123,6 +123,44 @@ margin-right: auto;
 border: 0.8px solid #F7F7F7;
 border-radius: 32px;
 }
+.btn-wrapperm {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .btn-wrapperm:nth-child() {
+    max-width: 24px;
+    max-height: 24px;
+  }
+  .slider-btn-firstm,
+  .slider-btn-secondm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: rgba(246, 246, 246, 0.3);
+    max-width: 100%;
+    max-height: 100%;
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  .slider-btn-firstm:is(:hover, :focus),
+  .slider-btn-secondm:is(:hover, :focus) {
+    color:rgba(246, 246, 246, 1);
+  }
+  .icon-leftm,
+  .icon-rightm {
+    max-width: 24px;
+    max-height: 24px;
+    stroke: currentColor;
+    fill: transparent;
+  }
 @media screen and (min-width:768px)
 {
     .rest-menu{
@@ -166,8 +204,23 @@ line-height: 1.50;
 font-size: 18px;
 line-height: 1.33;
 }
-
-
+.btn-wrapperm{
+    gap: 32px;
+}
+.btn-wrapperm:nth-child() {
+    max-width: 36px;
+    max-height: 36px;
+  }
+  .slider-btn-firstm,
+  .slider-btn-secondm{
+    max-width: 36px;
+    max-height: 36px;
+  }
+    .icon-leftm,
+    .icon-rightm{
+    max-width: 36px;
+    max-height: 36px;
+  }
 }
 
 @media screen and (min-width:1440px) {
@@ -219,5 +272,8 @@ line-height: 1.33;
     } */
     .button{
         margin-top: 50px;
+        }
+        .btn-wrapperm{
+            display: none;
         }
     }

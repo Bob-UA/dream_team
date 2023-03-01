@@ -29,8 +29,7 @@
   line-height: 1.14;
   margin-bottom: 28px;
 }
-.amenities-list {
-}
+
 .amenities-item {
   display: flex;
   flex-direction: row;
@@ -50,9 +49,6 @@
   background-color: var(--primary-background-color);
 }
 
-.amenities-list-wrapper {
-}
-
 .amenities-img-wrap {
   position: relative;
   padding-left: 76px;
@@ -61,9 +57,9 @@
   margin-bottom: 32px;
 }
 
-.amenities-img.second {
+.amenities-img-second {
   position: absolute;
-  top: 43.24%;
+  bottom: 86px;
   left: 0;
 }
 
@@ -71,6 +67,7 @@
   display: block;
   width: 175px;
   height: 34px;
+  padding: 8px 18px;
   border: 0.8px solid var(--primary-background-color);
   border-radius: 32px;
   font-size: 14px;
@@ -95,15 +92,12 @@
     margin-bottom: 122px;
   }
 
-  .amenities-item-wrap {
-  }
   .amenities-list-title {
     font-size: 40px;
     line-height: 1.1;
     margin-bottom: 40px;
   }
-  .amenities-list {
-  }
+
   .amenities-item {
     gap: 12px;
     font-size: 18px;
@@ -117,9 +111,6 @@
     max-height: 4px;
   }
 
-  .amenities-list-wrapper {
-  }
-
   .amenities-img-btn-wrap {
     position: relative;
   }
@@ -131,11 +122,12 @@
     margin-bottom: 0;
   }
 
-  .amenities-img.second {
-    top: 29.9%;
+  .amenities-img-second {
+    bottom: 184px;
   }
 
   .amenities-btn {
+    padding: 8px 22px;
     max-width: 143px;
     height: 40px;
     line-height: 1.71;
@@ -143,7 +135,7 @@
 
   .btn-wrap {
     position: absolute;
-    top: 70.66%;
+    bottom: 114px;
     left: 0;
   }
 }
@@ -183,17 +175,19 @@
     max-height: 636px;
   }
 
-  .amenities-img.second {
-    top: 32.7%;
+  .amenities-img-second {
+    bottom: 209px;
   }
 
   .amenities-btn {
     max-width: 170px;
     height: 42px;
+    padding: 9px 21px;
+    font-size: 18px;
     line-height: 1.33;
   }
 
   .btn-wrap {
-    top: 72.17%;
+    bottom: 135px;
   }
 }

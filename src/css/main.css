@@ -38,5 +38,5 @@
 @import url('./pages/hotel_page_styles/four_seater_room.css');
 
 /* room page */
-
 @import url('./pages/room_page_styles/room_hero.css');
+@import url('./pages/room_page_styles/amenities.css');

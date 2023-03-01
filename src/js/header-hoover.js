@@ -1,6 +1,6 @@
 const link = document.querySelectorAll('.header-link');
 const url = document.location.pathname;
-const CLASS = 'ім'я класу до якого причепиш псевдоелемент';
+const CLASS = 'mob-nav-link';
 link.forEach(x => {
   if (x.classList.contains(CLASS)) {
     x.classList.remove(CLASS);
@@ -10,6 +10,6 @@ link.forEach(x => {
     return;
   }
 });
-if (url === '/встав ім'я свого репо/') {
+if (url === 'dream_team') {
   link[0].classList.add(CLASS);
 }

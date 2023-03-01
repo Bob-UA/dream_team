@@ -16,12 +16,6 @@
   line-height: 1.5;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  border: 0.8px solid #121212;
-  border-radius: 8px;
-}
-
 .current {
   position: relative;
 }
@@ -109,17 +103,20 @@
   display: none;
 }
 
+.header-soc-link {
+  display: flex;
+  justify-content: center;
+}
+
 .mob-menu {
   display: flex;
   flex-direction: column;
-
   position: fixed;
   top: 0;
   z-index: 1;
   width: 100%;
   height: 100vh;
   background-color: #121212;
-
 }
 
 .mob-menu-header {
@@ -140,9 +137,9 @@
 }
 
 .mob-menu-close-btn-icon {
-  width: 14px;
-  height: 14px;
-  fill: #F6F6F6;
+  width: 16px;
+  height: 16px;
+  fill: #F7F7F7;
 }
 
 .home-header-logo {
@@ -179,6 +176,8 @@
   gap: 32px;
 }
 
+.mob-nav-item {}
+
 .mob-nav-link {
   font-weight: 400;
   font-size: 18px;
@@ -195,10 +194,6 @@
 .mob-soc-list {
   display: flex;
   gap: 14px;
-}
-
-.mob-menu-soc-icon {
-  fill: #F6F6F6;
 }
 
 .home-header-soc-list {
@@ -223,8 +218,6 @@
 }
 
 .home-menu-btn-icon {
-  width: 28px;
-  height: 28px;
   stroke: #F7F7F7;
 }
 
@@ -281,6 +274,11 @@
     height: 24px;
   }
 
+  .header-soc-icon {
+    stroke: currentColor;
+    fill: transparent;
+  }
+
   .logo-title {
     font-size: 20px;
     line-height: 1.2;
@@ -296,7 +294,6 @@
   .mob-menu-header {
     display: flex;
     padding: 20px 32px;
-
   }
 
   .menu-close-btn {
@@ -311,7 +308,7 @@
   .mob-nav-list {
     gap: 40px;
   }
-  
+
   .mob-nav-link {
     font-size: 28px;
     line-height: 1.14;
@@ -343,17 +340,22 @@
     line-height: 1.25;
   }
 
-  .home-header-soc-item {}
-
   .home-header-soc-link {
-    fill: #F7F7F7;
+    color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-header-soc-icon {
+    stroke: currentColor;
+    fill: transparent;
   }
 }
 
 /* Desktop style */
 @media screen and (min-width:1200px) {
   .header-container {
-      padding: 20px 32px;
+    padding: 20px 32px;
   }
 
   .header-soc-list {

@@ -192,7 +192,7 @@
     max-width: 100%;
     background-image: none;
   }
-}
+
   @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2),
     screen and (min-width: 1440px) and (min-resolution: 192dpi),
     screen and (min-width: 1440px) and (min-resolution: 2dppx) {
@@ -239,4 +239,4 @@
   .hero-description.not-desktop {
     display: none;
   }
-
+}

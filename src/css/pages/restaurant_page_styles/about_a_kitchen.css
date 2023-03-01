@@ -11,6 +11,7 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .picture-about-kitchen-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -23,11 +24,14 @@
 .text-about-kitchen {
   font-weight: var(--font-weight-large);
 }
-.text-italic{
-    font-style: italic;
+.text-italic {
+  font-style: italic;
 }
 /* mobile style */
 @media screen and (max-width: 767px) {
+  .section-about-kitchen {
+    padding-bottom: 64px;
+  }
   .picture-about-kitchen-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -54,6 +58,9 @@
 
 /* Tablet style */
 @media screen and (min-width: 768px) and (max-width: 1439px) {
+  .section-about-kitchen {
+    padding-bottom: 80px;
+  }
   .picture-about-kitchen-wrap {
     flex-wrap: nowrap;
     flex-direction: row-reverse;

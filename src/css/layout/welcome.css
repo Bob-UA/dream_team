@@ -26,10 +26,19 @@
   .imag-welcome {
     width: 100%;
   }
+  .section-welcome{
+   
+    padding-bottom: 64px;
+  }
 }
 
 /* Tablet style */
 @media screen and (min-width: 768px) {
+   .section-welcome{
+    
+    padding-bottom: 80px;
+  }
+
   .list-welcome {
     flex-direction: row;
   }
@@ -41,6 +50,7 @@
 
 /* Desktop style */
 @media screen and (min-width: 1440px) {
+ 
   .container-welcome {
     display: flex;
     flex-direction: row-reverse;

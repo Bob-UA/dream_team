@@ -11,7 +11,6 @@
   margin: -1px;
 }
 
-
 .about-first-box-wrap,
 .about-second-box-wrap {
   display: flex;
@@ -170,7 +169,7 @@
   .about-feedback-first {
     top: 176px;
     left: 370px;
-    z-index: 1000;
+    z-index: 1;
   }
 
   .thumb-second {

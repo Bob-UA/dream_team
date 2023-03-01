@@ -152,7 +152,7 @@
   position: fixed;
   left: 25%;
   top: 0%;
-  z-index: 1000;
+  z-index: 1;
   transform: scale(1) translatey(0) !important;
 }
 

@@ -12,11 +12,12 @@
 }
 
 .hotels-details__h-two {
+  color: var(--primary-background-color);
   margin-bottom: 32px;
-  font-size: 40px;
 }
 
 .hotels-details__paragraph {
+  color: var(--primary-background-color);
   max-width: 335px;
 }
 

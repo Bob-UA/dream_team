@@ -87,8 +87,35 @@
 
 /* ----------------------------------------Tablet--- */
 
-@media screen and (min-width: 768px) and (max-width:1439px) {
-  .hero-image {
+@media screen and (min-width: 768px) and (max-width:1439px) and (min-device-pixel-ratio: 2),
+    screen and (min-width: 768px) and (max-width:1439px) and (min-resolution: 192dpi),
+    screen and (min-width: 768px) and (max-width:1439px) and (min-resolution: 2dppx) {
+  
+      .container-hero{
+    /* max-width: 542px;
+    height: 710px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 528px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 38px;
+    /* margin-bottom: 76px;
+    padding-top: 478px; */
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        #121212 98.51%
+      ),
+      url('../../img/tablet/home/hero-home.jpg');
+    
+    background-size: 542px 710px;
+    background-position: center top 50px;
+    background-repeat: no-repeat;
+    
+  }
+
+/* .hero-image {
     max-width: 542px;
     height: 710px;
     margin-left: auto;
@@ -102,9 +129,10 @@
       ),
       url('../../img/tablet/home/hero-home.jpg');
     background-position: center;
-  }
+  } */
 
-  @media screen and (min-width: 768px) and (max-width:1439px) and (min-device-pixel-ratio: 2),
+
+  /* @media screen and (min-width: 768px) and (max-width:1439px) and (min-device-pixel-ratio: 2),
     screen and (min-width: 768px) and (max-width:1439px) and (min-resolution: 192dpi),
     screen and (min-width: 768px) and (max-width:1439px) and (min-resolution: 2dppx) {
     .hero-image {
@@ -115,7 +143,7 @@
         ),
         url('../../img/tablet/home/hero-home@2x.jpg');
     }
-  }
+  } */
 
   /* .hero-main {
     padding-top: 50px;
@@ -127,6 +155,9 @@
     line-height: 1;
   }
 
+  .hero-btn{
+    margin-bottom: 82px;
+  }
   .hero-btn-black {
     height: 40px;
     padding: 8px 24px;
@@ -139,6 +170,16 @@
   }
   .hero-description p:first-child {
     max-width: 338px;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
   }
 
   .hero-description p:last-child {
@@ -150,13 +191,13 @@
   }
 }
 
-@media screen and (max-width: 1439px){
+/* @media screen and (max-width: 1439px){
   .container-hero{
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-}
+} */
   
 
 /* ----------------------------------------Desktop--- */

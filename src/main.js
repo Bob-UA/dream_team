@@ -1,5 +1,9 @@
-import './js/restourants-details-modal';
+import './js/restourants-details-modal.js';
 
-import './js/room-hero-slider';
+import './js/room-hero-slider.js';
 
-import './js/slider-restaurant-page';
+import './js/slider-restaurant-page.js';
+
+import './js/menu.js';
+
+import './js/header-hoover.js';

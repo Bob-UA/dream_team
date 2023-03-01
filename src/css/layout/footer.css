@@ -33,7 +33,6 @@
 .footer-soc-list {
     display: flex;
     gap: 14px;
-
 }
 
 .footer-soc-item {
@@ -41,9 +40,16 @@
     height: 20px;
 }
 
+.footer-soc-link {
+    display: flex;
+    justify-content: center;
+}
+
 .footer-soc-icon {
     width: 20px;
     height: 20px;
+    stroke: currentColor;
+    fill: transparent;
 }
 
 /* mobile style */
@@ -130,15 +136,5 @@
 
     .footer-soc-list {
         gap: 14px;
-    }
-
-    .footer-soc-item {
-        width: 20px;
-        height: 20px;
-    }
-
-    .footer-soc-icon {
-        width: 20px;
-        height: 20px;
     }
 }

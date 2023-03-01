@@ -93,7 +93,7 @@
     rgba(18, 18, 18, 0.2),
     rgba(18, 18, 18, 0.2)
   );
-  z-index: 1000;
+  z-index: 2;
 }
 
 .room-img-item:not(:first-child) {

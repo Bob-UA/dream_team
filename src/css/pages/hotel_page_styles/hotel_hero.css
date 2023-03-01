@@ -10,7 +10,7 @@
   line-height: 1;
   margin-bottom: 24px;
 }
-.btn-wrap {
+.hotel-btn-wrap {
   min-width: 263px;
   min-height: 34px;
   display: flex;
@@ -73,7 +73,7 @@
   min-width: 250px;
   min-height: 429px;
 }
-.linear-gradient {
+.hotel-linear-gradient {
   position: absolute;
   top: 0;
   left: 0;
@@ -84,7 +84,7 @@
     rgba(18, 18, 18, 0.2),
     rgba(18, 18, 18, 0.2)
   );
-  z-index: 1000;
+  z-index: 2;
 }
 .hotel-img-item:not(:first-child) {
   margin: 0 10px;
@@ -95,7 +95,7 @@
 .hotel-img-item:last-child {
   margin-right: 0;
 }
-.btn-wrapper {
+.hotel-btn-wrapper {
   display: flex;
   gap: 32px;
   justify-content: flex-end;
@@ -166,7 +166,7 @@
   .hotel-hero-title {
     font-size: 90px;
   }
-  .btn-wrap {
+  .hotel-btn-wrap {
     min-width: 341px;
     min-height: 42px;
     gap: 14px;
@@ -194,7 +194,7 @@
     min-width: 436px;
     min-height: 548px;
   }
-  .linear-gradient {
+  .hotel-linear-gradient {
     width: 436px;
     height: 548px;
   }
@@ -204,7 +204,7 @@
   .hotel-img-item:first-child {
     margin-right: 16px;
   }
-  .btn-wrapper {
+  .hotel-btn-wrapper {
     padding-right: 32px;
     margin-bottom: 0;
   }
@@ -238,7 +238,7 @@
     font-size: 80px;
     margin-bottom: 32px;
   }
-  .btn-wrap {
+  .hotel-btn-wrap {
     min-width: 289px;
     min-height: 40px;
   }
@@ -263,10 +263,10 @@
   .hotel-img-item {
     min-height: 580px;
   }
-  .linear-gradient {
+  .hotel-linear-gradient {
     height: 580px;
   }
-  .btn-wrapper {
+  .hotel-btn-wrapper {
     padding-top: 6px;
     padding-right: 0;
     margin-bottom: 0;

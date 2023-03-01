@@ -1,26 +1,28 @@
-.restaur-hero {
+.room-hero {
   padding-top: 40px;
 }
 
-.restaur-container {
+.room-container {
   margin-bottom: 40px;
 }
 
-.restaur-hero-title {
+.room-hero-title {
+  display: inline-block;
+  max-width: 271px;
   font-weight: 400;
   font-size: 40px;
   line-height: 1;
   margin-bottom: 24px;
 }
-.btn-wrap {
+.room-btn-wrap {
   min-width: 263px;
   min-height: 34px;
   display: flex;
   gap: 12px;
 }
-.restaur-hero-btn {
+.room-hero-btn {
   display: block;
-  min-width: 128px;
+  min-width: 117px;
   min-height: 34px;
   padding: 8px 18px;
   border: 0.8px solid var(--secondary-background-color);
@@ -34,20 +36,20 @@
   text-transform: uppercase;
 }
 
-.restaur-hero-btn:is(:hover, :focus) {
+.room-hero-btn:is(:hover, :focus) {
   background-color: var(--secondary-background-color);
   border-color: var(--primary-background-color);
   color: var(--primary-background-color);
 }
 
-.container-slider {
+.room-container-slider {
   margin-left: auto;
   margin-right: auto;
   max-width: 375px;
   padding-left: 20px;
 }
 
-.restaurant-slider {
+.room-slider {
   display: flex;
   max-width: 1620px;
   min-height: 429px;
@@ -57,30 +59,30 @@
   transform: scroll(calc(var(--i, 0) / var(--n) * -100%));
   scroll-behavior: smooth;
 }
-.restaurant-slider::-webkit-scrollbar {
+.room-slider::-webkit-scrollbar {
   height: 5px;
   width: 150px;
   display: none;
 }
-.restaurant-slider::-webkit-scrollbar-track {
+.room-slider::-webkit-scrollbar-track {
   background: transparent;
 }
-.vslider::-webkit-scrollbar-thumb {
+.room-slider::-webkit-scrollbar-thumb {
   background: #888;
 }
-.restaurant-slider::-webkit-scrollbar-thumb:hover {
+.room-slider::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-.restaurant-slider img:hover {
+.room-slider img:hover {
   transform: scale(1.05);
 }
-.restaurant-img-item {
+.room-img-item {
   position: relative;
   min-width: 250px;
   min-height: 429px;
 }
 
-.linear-gradient {
+.room-linear-gradient {
   position: absolute;
   top: 0;
   left: 0;
@@ -94,18 +96,18 @@
   z-index: 1000;
 }
 
-.restaurant-img-item:not(:first-child) {
+.room-img-item:not(:first-child) {
   margin: 0 10px;
 }
 
-.restaurant-img-item:first-child {
+.room-img-item:first-child {
   margin-right: 10px;
 }
-.restaurant-img-item:last-child {
+.room-img-item:last-child {
   margin-right: 0;
 }
 
-.btn-wrapper {
+.room-btn-wrapper {
   display: flex;
   gap: 32px;
   justify-content: flex-end;
@@ -114,12 +116,12 @@
   margin-bottom: 40px;
 }
 
-.btn-wrapper:nth-child() {
+.room-btn-wrapper:nth-child() {
   max-width: 36px;
   max-height: 36px;
 }
-.slider-btn-first,
-.slider-btn-second {
+.room-slider-btn-first,
+.room-slider-btn-second {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,8 +136,8 @@
   cursor: pointer;
 }
 
-.slider-btn-first:is(:hover, :focus),
-.slider-btn-second:is(:hover, :focus) {
+.room-slider-btn-first:is(:hover, :focus),
+.room-slider-btn-second:is(:hover, :focus) {
   color: rgba(18, 18, 18, 1);
 }
 .icon-left,
@@ -146,7 +148,7 @@
   fill: transparent;
 }
 
-.restaurant-img-item img.zoomed {
+.room-img-item img.zoomed {
   width: 500px;
   height: 650px;
   position: fixed;
@@ -169,7 +171,11 @@
   display: block;
 }
 
-.restaur-text {
+.room-text-wrap {
+  max-width: 289px;
+}
+
+.room-text {
   font-weight: 400;
   letter-spacing: 0.05em;
 }
@@ -179,141 +185,138 @@
 }
 
 @media screen and (min-width: 768px) {
-  .restaur-container {
-    margin-bottom: 54px;
+  .room-container {
+    margin-bottom: 28px;
   }
 
-  .restaur-hero-title {
-    font-size: 90px;
+  .room-hero-title {
+    max-width: 407px;
+    font-size: 60px;
+    margin-bottom: 18px;
   }
 
-  .btn-wrap {
-    min-width: 341px;
-    min-height: 42px;
-    gap: 14px;
-  }
-
-  .restaur-hero-btn {
-    min-width: 167px;
-    max-height: 42px;
+  .room-hero-btn {
+    min-width: 129px;
+    max-height: 40px;
     padding: 8px 24px;
     line-height: 1.71;
   }
 
-  .container-slider {
+  .room-container-slider {
     max-width: 768px;
     padding-left: 32px;
   }
 
-  .slider-wrap {
-    position: relative;
-    padding-bottom: 76px;
+  .room-slider {
+    margin-bottom: 40px;
   }
-  .restaurant-slider {
+
+  .room-slider-wrap {
+    position: relative;
+    padding-bottom: 40px;
+  }
+  .room-restaurant-slider {
     max-width: 2796px;
     min-height: 548px;
     margin-bottom: 40px;
   }
 
-  .restaurant-img-item {
+  .room-img-item {
     min-width: 436px;
     min-height: 548px;
   }
 
-  .linear-gradient {
+  .room-linear-gradient {
     width: 436px;
     height: 548px;
   }
 
-  .restaurant-img-item:not(:first-child) {
+  .room-img-item:not(:first-child) {
     margin: 0 16px;
   }
 
-  .restaurant-img-item:first-child {
+  .room-img-item:first-child {
     margin-right: 16px;
   }
 
-  .btn-wrapper {
+  .room-btn-wrapper {
     padding-right: 32px;
-    margin-bottom: 0;
+    margin-bottom: 36px;
   }
 
-  .restaur-text-wrap {
+  .room-text-wrap {
     position: absolute;
     bottom: 40px;
     left: 0;
-    max-width: 343px;
+    max-width: 289px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .restaur-hero {
+  .room-hero {
     padding-top: 30px;
+    padding-bottom: 30px;
   }
-  .restaur-hero-wrap {
+  .room-hero-wrap {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 32px;
-    padding-bottom: 30px;
     display: flex;
-    gap: 181px;
+    gap: 112px;
   }
 
-  .restaur-container {
-    max-width: 524px;
+  .room-container {
+    max-width: 592px;
     margin-bottom: 0;
     padding-left: 0;
-    padding-top: 204px;
+    padding-top: 139px;
   }
 
-  .restaur-hero-title {
+  .room-hero-title {
     font-size: 80px;
+    max-width: 592px;
     margin-bottom: 32px;
   }
-  .btn-wrap {
-    min-width: 289px;
-    min-height: 40px;
-  }
-  .restaur-hero-btn {
-    min-width: 140px;
-    max-height: 40px;
+
+  .room-hero-btn {
+    min-width: 152px;
+    max-height: 42px;
     padding: 8px 24px;
   }
 
-  .container-slider {
+  .room-container-slider {
     max-width: 715px;
     min-height: 616px;
     padding: 0;
   }
 
-  .slider-wrap {
+  .room-slider-wrap {
     padding-bottom: 0;
   }
-  .restaurant-slider {
+  .room-slider {
     max-width: 1392px;
     max-height: 580px;
     margin-bottom: 16px;
   }
 
-  .restaurant-img-item {
+  .room-img-item {
     min-height: 580px;
   }
 
-  .linear-gradient {
+  .room-linear-gradient {
     height: 580px;
   }
 
-  .btn-wrapper {
-    padding-top: 6px;
+  .room-btn-wrapper {
     padding-right: 0;
     margin-bottom: 0;
     justify-content: flex-start;
   }
 
-  .restaur-text-wrap {
+  .room-text-wrap {
     bottom: 18px;
     left: -693px;
-    max-width: 343px;
+    max-width: 289px;
   }
 }

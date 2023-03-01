@@ -10,6 +10,6 @@ link.forEach(x => {
     return;
   }
 });
-if (url === 'dream_team') {
+if (url === '/dream_team'/) {
   link[0].classList.add(CLASS);
 }

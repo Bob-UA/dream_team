@@ -390,11 +390,4 @@
     color: #F7F7F7;
   }
 
-  .home-nav-link:is(:hover, :focus) {
-    border-radius: 8px;
-    border: 0.8px solid #F7F7F7;
-    transition: box-shadow 250ms linear;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
 }

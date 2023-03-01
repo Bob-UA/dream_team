@@ -118,16 +118,6 @@
 }
 
 @media (min-width: 1441px) {
-  .hotels-details__container {
-    max-width: 1440px;
-  }
-
-  .hotels-details__text-and-button {
-    display: flex;
-    gap: 432px;
-    justify-content: space-between;
-  }
-
   .hotels-details__images-tablet-version {
     display: none;
   }

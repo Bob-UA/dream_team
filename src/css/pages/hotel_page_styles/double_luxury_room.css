@@ -25,6 +25,12 @@
   padding: 8px 18px;
   margin-top: 36px;
   display: block;
+  text-transform: uppercase;
+}
+.button-double-room:hover,
+.button-double-room:focus {
+  color: var(--primary-background-color);
+  background-color: var(--secondary-background-color);
 }
 
 

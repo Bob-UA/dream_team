@@ -181,7 +181,7 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .hotels-details__images-desktop-version {
     display: none;
   }

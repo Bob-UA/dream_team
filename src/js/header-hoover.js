@@ -1,6 +1,6 @@
 const link = document.querySelectorAll('.header-link');
 const url = document.location.pathname;
-const CLASS = 'mob-nav-link';
+const CLASS = 'home-nav-link';
 link.forEach(x => {
   if (x.classList.contains(CLASS)) {
     x.classList.remove(CLASS);
@@ -10,6 +10,6 @@ link.forEach(x => {
     return;
   }
 });
-if (url === 'dream_team') {
+if (url === '/dream_team/') {
   link[0].classList.add(CLASS);
 }

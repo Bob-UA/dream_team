@@ -123,8 +123,8 @@
   border-radius: 32px;
 }
 
-​ .button:hover,
-button:focus {
+.button:hover,
+.button:focus {
   background-color: rgba(246, 246, 246, 1);
   color: rgba(18, 18, 18, 1);
   border: 0.8px solid #f7f7f7;

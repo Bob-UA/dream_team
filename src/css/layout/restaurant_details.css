@@ -32,7 +32,8 @@
   border: 0.8px solid #121212;
   border-radius: 32px;
   background-color: var(--primary-background-color);
-
+font-size: 18px;
+line-height: 1.333;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--primary-text-color);
@@ -55,8 +56,8 @@
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 1.29;
+  font-size: 18px;
+  line-height: 1.3333;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #121212;

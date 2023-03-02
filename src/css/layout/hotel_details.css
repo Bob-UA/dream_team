@@ -62,6 +62,12 @@
   text-transform: uppercase;
 }
 
+.buttonn:hover,
+.buttonn:focus {
+  color: var(--secondary-background-color);
+  background-color: var(--primary-background-color);
+}
+
 @media (min-width: 768px) {
   .hotels-details__text-and-button {
     padding-top: 44px;

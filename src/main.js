@@ -6,6 +6,8 @@ import './js/modal-book-room-2';
 
 import './js/modal-book-room-3';
 
+import './js/modal-book-room-4';
+
 import './js/modal-book-table';
 
 import './js/modal-book-table-1';

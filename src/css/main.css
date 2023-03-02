@@ -15,6 +15,9 @@
 
 /* components */
 @import url('./components/container.css');
+@import url('./components/modal-price.css');
+@import url('./components/modal_book_room.css');
+@import url('./components/modal-book-table.css');
 
 /* layout */
 @import url('./layout/header.css');

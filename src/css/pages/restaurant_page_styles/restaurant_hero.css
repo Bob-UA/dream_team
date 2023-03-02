@@ -196,7 +196,7 @@
   font-style: italic;
 }
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   z-index: 2000;
   top: 0;
@@ -251,7 +251,7 @@
 
 /* Modal-form */
 
-.restourant-details-modal-title {
+/* .restourant-details-modal-title {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
@@ -352,7 +352,7 @@ option {
 .modal-btn:focus {
   background-color: var(--primary-background-color);
   color: var(--secondary-background-color);
-}
+}  */
 
 @media screen and (min-width: 768px) {
   .restaur-container {
@@ -428,7 +428,7 @@ option {
     max-width: 343px;
   }
 
-  .restourant-details-modal {
+  /* .restourant-details-modal {
     min-width: 335px;
     max-width: 629px;
     max-height: 476px;
@@ -453,7 +453,7 @@ option {
     min-width: 266px;
     margin: 0;
     padding: 0;
-  }
+  } */
 }
 
 @media screen and (min-width: 1440px) {

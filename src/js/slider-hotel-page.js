@@ -1,7 +1,7 @@
 function prev() {
-  document.getElementById('slider-container').scrollLeft -= 270;
+  document.getElementById('hotel-slider-container').scrollLeft -= 270;
 }
 
 function next() {
-  document.getElementById('slider-container').scrollLeft += 270;
+  document.getElementById('hotel-slider-container').scrollLeft += 270;
 }

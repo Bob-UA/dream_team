@@ -19,12 +19,6 @@
   line-height: 1.5;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  border: 0.8px solid #121212;
-  border-radius: 8px;
-}
-
 .current {
   position: relative;
 }

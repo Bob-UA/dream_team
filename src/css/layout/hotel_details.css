@@ -60,12 +60,17 @@
   border: 0.8px solid #f7f7f7;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+
+  transition-property: color, background-color, border-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
-.buttonn:hover, 
+.buttonn:hover,
 .buttonn:focus {
-    color: var(--secondary-background-color);
-    background-color: var(--primary-background-color);
+  color: var(--secondary-background-color);
+  background-color: var(--primary-background-color);
+  border-color: var(--secondary-background-color);
 }
 
 @media (min-width: 768px) {

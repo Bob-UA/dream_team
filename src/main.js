@@ -6,7 +6,9 @@ import * as utils from './js/modal-book-room-2';
 
 import * as utils from './js/modal-book-room-3';
 
-import * as utils from './js/modal-book-table';
+import './js/modal-book-room-4';
+
+import './js/modal-book-table';
 
 import * as utils from './js/modal-book-table-1';
 

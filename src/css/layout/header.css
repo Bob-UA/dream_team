@@ -208,6 +208,16 @@
   visibility: hidden;
   pointer-events: none;
 }
+
+.mob-menu{
+      transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.mob-menu.is-open{
+    transform: translateX(0);
+}
+
 @media screen and (max-width:767px){
   
 .header-container{

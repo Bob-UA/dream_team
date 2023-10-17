@@ -1,0 +1,1 @@
+(()=>{const e={prev:document.querySelector("#slider-prev"),next:document.querySelector("#slider-next"),container:document.querySelector("#slider-container")};e.prev.addEventListener("click",n),e.next.addEventListener("click",t);function n(){e.container.scrollLeft-=270}function t(){e.container.scrollLeft+=270}})();

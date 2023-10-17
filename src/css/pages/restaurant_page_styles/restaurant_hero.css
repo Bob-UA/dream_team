@@ -18,45 +18,6 @@
   display: flex;
   gap: 12px;
 }
-.restaur-hero-btn {
-  display: block;
-  max-width: 128px;
-  max-height: 34px;
-  padding: 8px 17px;
-  border: 0.8px solid var(--secondary-background-color);
-  background-color: transparent;
-  color: inherit;
-  border-radius: 32px;
-
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  transition-property: color, background-color, border-color;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-}
-
-.restaur-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 128px;
-  min-height: 34px;
-  border: 0.8px solid var(--primary-text-color);
-  border-radius: 32px;
-  color: var(--primary-text-color);
-  transition-property: color, background-color, border-color;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-}
-
-.restaur-hero-btn:is(:hover, :focus),
-.restaur-link:is(:hover, :focus) {
-  color: var(--primary-background-color);
-  background-color: var(--secondary-background-color);
-  border-color: var(--primary-background-color);
-}
 
 .container-slider {
   margin-left: auto;
@@ -369,20 +330,6 @@ option {
     gap: 14px;
   }
 
-  .restaur-hero-btn {
-    min-width: 140px;
-    max-height: 40px;
-    padding: 8px 23px;
-    line-height: 1.71;
-  }
-
-  .restaur-link {
-    min-width: 135px;
-    max-height: 40px;
-    padding: 8px 24px;
-    line-height: 1.71;
-  }
-
   .container-slider {
     max-width: 768px;
     padding-left: 32px;
@@ -485,17 +432,6 @@ option {
     min-width: 289px;
     min-height: 40px;
   }
-  .restaur-hero-btn {
-    min-width: 167px;
-    max-height: 42px;
-    padding: 8px 24px;
-  }
-
-  .restaur-link {
-    min-width: 160px;
-    max-height: 42px;
-  }
-
   .container-slider {
     max-width: 715px;
     min-height: 616px;

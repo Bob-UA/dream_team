@@ -104,41 +104,7 @@
 .menu-dessert {
   display: none;
 }
-.button {
-  padding: 8px, 24px, 8px, 24px;
-  min-width: 140px;
-  min-height: 40px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #f7f7f7;
-  background-color: transparent;
-  display: block;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  border: 0.8px solid #f7f7f7;
-  border-radius: 32px;
-}
 
-.button:hover,
-.button:focus {
-  background-color: rgba(246, 246, 246, 1);
-  color: rgba(18, 18, 18, 1);
-  border: 0.8px solid #f7f7f7;
-}
-​ .btn-wrapperm {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-​ .btn-wrapperm:nth-child() {
-  max-width: 24px;
-  max-height: 24px;
-}
 .slider-btn-firstm,
 .slider-btn-secondm {
   display: flex;

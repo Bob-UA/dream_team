@@ -48,20 +48,6 @@
   justify-content: center;
 }
 
-.buttonn {
-  padding: 8px 18px;
-  font-size: 14px;
-  line-height: 1.28;
-  height: 34px;
-  color: var(--primary-background-color);
-  background-color: var(--secondary-background-color);
-  border-color: var(--primary-background-color);
-  border-radius: 32px;
-  border: 0.8px solid #f7f7f7;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-}
-
 @media (min-width: 768px) {
   .hotels-details__text-and-button {
     padding-top: 44px;
@@ -106,11 +92,6 @@
   .hotels-details__bottom-buttons {
     padding-bottom: 44px;
     gap: 14px;
-  }
-
-  .buttonn {
-    height: 40px;
-    padding: 8px 24px;
   }
 }
 
@@ -157,12 +138,6 @@
     display: flex;
     gap: 14px;
     align-items: flex-start;
-  }
-
-  .buttonn {
-    height: 42px;
-    padding: 8px 24px;
-    font-size: 18px;
   }
 
   .hotels-details__bottom-buttons {

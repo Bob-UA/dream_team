@@ -18,8 +18,6 @@
   gap: 20px;
 }
 
-
-
 .button-list-double-room {
   display: flex;
   gap: 12px;
@@ -30,11 +28,6 @@
 }
 .photo-double-room-desktop {
   display: none;
-}
-
-/* mobile style */
-@media screen and (max-width: 767px) {
-
 }
 
 /* Tablet style */

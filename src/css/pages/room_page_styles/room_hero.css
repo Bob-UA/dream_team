@@ -20,27 +20,6 @@
   display: flex;
   gap: 12px;
 }
-.room-hero-btn {
-  display: block;
-  min-width: 117px;
-  min-height: 34px;
-  padding: 8px 18px;
-  border: 0.8px solid var(--secondary-background-color);
-  background-color: transparent;
-  color: inherit;
-  border-radius: 32px;
-
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-}
-
-.room-hero-btn:is(:hover, :focus) {
-  background-color: var(--secondary-background-color);
-  border-color: var(--primary-background-color);
-  color: var(--primary-background-color);
-}
 
 .room-container-slider {
   margin-left: auto;
@@ -195,13 +174,6 @@
     margin-bottom: 18px;
   }
 
-  .room-hero-btn {
-    min-width: 129px;
-    max-height: 40px;
-    padding: 8px 24px;
-    line-height: 1.71;
-  }
-
   .room-container-slider {
     max-width: 768px;
     padding-left: 32px;
@@ -277,12 +249,6 @@
     font-size: 80px;
     max-width: 592px;
     margin-bottom: 32px;
-  }
-
-  .room-hero-btn {
-    min-width: 152px;
-    max-height: 42px;
-    padding: 8px 24px;
   }
 
   .room-container-slider {

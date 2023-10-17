@@ -15,6 +15,11 @@
   background-color: #d8d7d7;
 }
 
+.modal-btn-container{
+  display: flex;
+  justify-content: center;
+}
+
 /* Modal Book a room */
 
 .book-a-room {
@@ -121,23 +126,6 @@
   text-transform: uppercase;
   color: #d8d7d7;
   margin-bottom: 32px;
-}
-
-.book-a-room-btn {
-  display: block;
-  margin: 0 auto;
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #f7f7f7;
-  border: 0.8px solid #f7f7f7;
-  border-radius: 32px;
-  background-color: transparent;
-  padding: 14px 48px;
 }
 
 /* ======================Mobile==================== */
@@ -252,20 +240,4 @@
     margin-bottom: 0;
   }
 
-  .book-a-room-btn {
-    margin-top: 80px;
-    margin-bottom: 60px;
-  }
-}
-
-/* =========================Desctop================== */
-
-@media screen and (min-width: 1400px) {
-  .book-a-room-btn {
-    transition: color 250ms linear;
-  }
-  .book-a-room-btn:is(:hover, :focus) {
-    color: #121212;
-    background: #ffffff;
-  }
 }

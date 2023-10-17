@@ -21,7 +21,7 @@
   background: #121212;
   border-radius: 2px;
   padding: 24px 24px 40px 24px;
-  overflow-y: scroll;
+  overflow-y: initial;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,6 +41,13 @@
   stroke: currentColor;
   transition: background-color 250ms var(--cubic), stroke 250ms var(--cubic);
 }
+
+div .btn-modal{
+  font-size: 14px;
+  line-height: 1.29;
+  margin-top: 40px;
+}
+
 /* Modal-form */
 .restourant-details-modal-title {
   font-family: 'DM Sans';
@@ -150,6 +157,11 @@ option {
 }
 
 @media screen and (min-width: 768px) {
+
+  div .btn-modal{
+  margin-top: 80px;
+}
+
   .restourant-details-modal {
     max-width: 628px;
     max-height: 500px;
